@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" prefWidth="432.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane prefHeight="453.0" prefWidth="412.0" GridPane.columnIndex="1">
+            <children>
+                <Button fx:id="btn0" graphicTextGap="0.0" layoutY="42.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font></Button>
+                <Button fx:id="btnRestartGame" layoutX="326.0" layoutY="81.0" mnemonicParsing="false" onAction="#clickRestartGame" prefHeight="26.0" prefWidth="78.0" text="RESET" />
+                <Button fx:id="btnEndGame" layoutX="326.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickEndGame" prefHeight="26.0" prefWidth="78.0" text="END" />
+                <Button fx:id="btnNewGame" layoutX="326.0" layoutY="42.0" mnemonicParsing="false" onAction="#clickNewGame" prefHeight="26.0" prefWidth="78.0" text="START" />
+                <Button fx:id="btn1" graphicTextGap="0.0" layoutX="78.0" layoutY="42.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn2" graphicTextGap="0.0" layoutX="156.0" layoutY="42.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn3" graphicTextGap="0.0" layoutX="234.0" layoutY="42.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn4" graphicTextGap="0.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn5" graphicTextGap="0.0" layoutX="78.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn6" graphicTextGap="0.0" layoutX="156.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn7" graphicTextGap="0.0" layoutX="234.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn8" graphicTextGap="0.0" layoutY="198.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn9" graphicTextGap="0.0" layoutX="78.0" layoutY="198.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn10" graphicTextGap="0.0" layoutX="156.0" layoutY="198.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn11" graphicTextGap="0.0" layoutX="234.0" layoutY="198.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn12" graphicTextGap="0.0" layoutY="276.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn13" graphicTextGap="0.0" layoutX="78.0" layoutY="276.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn14" graphicTextGap="0.0" layoutX="156.0" layoutY="276.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btn15" graphicTextGap="0.0" layoutX="234.0" layoutY="276.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="62.0" prefWidth="78.0" text="O" textAlignment="CENTER">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Button>
+            </children></AnchorPane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>
